@@ -11,7 +11,7 @@ router.post("/registerUser", async (req, res) => {
     nic,
     gender,
   });
-  //console.log(req.body);
+
 
   try {
     //preventing from same person registering
